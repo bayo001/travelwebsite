@@ -14,8 +14,6 @@ const addEventOnElements = function(elements, eventType, callback){
         elements[i].addEventListener(eventType,callback);
     }
 }
-
-
 /**
  * navbar toodler for mobile
  */
@@ -43,3 +41,4 @@ const header = document.querySelector("[data-header");
 window.addEventListener("scroll", function () {
     header.classList[window.scrollY > 100 ? "add" : "remove"]("active");
 });
+ 

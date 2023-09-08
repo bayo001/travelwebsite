@@ -126,7 +126,7 @@ body{
 body.nav-active{ overflow: hidden; }
 /* reused style */
 .container {padding-inline: 16px;}
- .btn {
+ .btn {  
     height: 50px;
     color: var(--text-white);
     padding-inline: 30px;
@@ -396,7 +396,7 @@ hero ***/
 .hero .container{
     display: grid;
     gap: 50px;
-}
+}  
 
 .hero-subtitle{
     background-color: var(--bg-misty-rose);
@@ -946,7 +946,7 @@ responsive for larger than 768px screen
    Gallery
    */
 
-   .gallery .section-title { margin-block-end: 65px; }
+   .gallery .section- { margin-block-end: 65px; }
     
    .gallery-list {
          display: grid;
@@ -1250,7 +1250,7 @@ responsive for larger than 768px screen
      service 
      */
 
-     .service .section-title { margin-block-end:  20px; }
+     .service .section- { margin-block-end:  20px; }
      
 
      .service .title-wrapper {
